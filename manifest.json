@@ -6,7 +6,7 @@
       "src": "/assets/images/favicon/favicon.png",
       "type": "image/png",
       "sizes": "544x544"
-    },
+    }
   ],
   "start_url": "/",
   "background_color": "#FFFFFF",
