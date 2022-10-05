@@ -1304,6 +1304,7 @@ footer .contact-form button.filled-button:hover {
 	}
 	.navbar .navbar-brand {
 		width: auto;
+		max-width: 100px;
 	}
 	.navbar:after {
 		display: none;
