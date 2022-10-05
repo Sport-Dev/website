@@ -3,15 +3,10 @@
   "name": "Sport Dev",
   "icons": [
     {
-      "src": "/assets/images/favicon/android-icon-192x192.png",
+      "src": "/assets/images/favicon/favicon.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "544x544"
     },
-    {
-      "src": "/assets/images/favicon/ms-icon-310x310.png",
-      "type": "image/png",
-      "sizes": "310x310"
-    }
   ],
   "start_url": "/",
   "background_color": "#FFFFFF",
