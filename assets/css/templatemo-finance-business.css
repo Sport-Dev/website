@@ -1303,8 +1303,8 @@ footer .contact-form button.filled-button:hover {
 		top: 10px;
 	}
 	.navbar .navbar-brand {
-		width: auto;
-		max-width: 100px;
+		width: 7rem;
+		max-width: 10rem;
 	}
 	.navbar:after {
 		display: none;
