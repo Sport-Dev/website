@@ -771,6 +771,10 @@ ul.slick-dots {
 	padding: 0!important;
 }
 
+.contact-form {
+	margin-bottom: 70px;
+}
+
 .callback-form {
 	margin-top: 140px;
 }
@@ -886,7 +890,6 @@ ul.slick-dots {
 }
 
 .partners {
-	margin-top: 140px;
 	background-color: #f7f7f7;
 	padding: 60px 0px;
 }
