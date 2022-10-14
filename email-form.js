@@ -1,6 +1,6 @@
 window.addEventListener("load", function() {
   document.getElementById("mailtolink").addEventListener("click", function(e) {
-    e.preventDefault() // remove after testing
+ 
     let url = new URL("mailto:contact@sport-dev.ch");
     let params = new URLSearchParams(url.search);
     const name = document.querySelector("[name=name]").value.trim();
@@ -10,7 +10,8 @@ window.addEventListener("load", function() {
     params.set("from", email);
     params.set("subject", subject);
     params.set("body", name + " said " + body);
-    this.href=url;
-    console.log(url)
+    let newhref = ["mailto:contact@sport-dev.ch" + "?" + params.toString()];
+    document.getElementById("mailtolink").setAttribute("href", newhref);
+    new URL(newhref)
   })
 });
